@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonam Priya | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#1e3a8a,#9333ea);
+  color:white;
+  scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  position:sticky;
+  top:0;
+  background:rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+
+nav a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:cyan;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+.hero span{
+  color:cyan;
+}
+
+.btn{
+  margin-top:20px;
+  padding:12px 25px;
+  background:white;
+  color:black;
+  border-radius:25px;
+  text-decoration:none;
+}
+
+.btn:hover{
+  background:cyan;
+}
+
+/* SECTION */
+section{
+  padding:70px 40px;
+  text-align:center;
+}
+
+/* BOX */
+.box{
+  background:rgba(255,255,255,0.1);
+  padding:20px;
+  margin:15px auto;
+  border-radius:15px;
+  max-width:700px;
+}
+
+/* SKILLS */
+.skills span{
+  display:inline-block;
+  margin:10px;
+  padding:10px 15px;
+  background:rgba(255,255,255,0.2);
+  border-radius:20px;
+}
+
+.skills span:hover{
+  background:white;
+  color:black;
+}
+
+/* PROJECT */
+.project{
+  background:rgba(255,255,255,0.1);
+  padding:20px;
+  margin:15px auto;
+  border-radius:12px;
+  max-width:300px;
+}
+
+.project:hover{
+  background:white;
+  color:black;
+  transform:scale(1.05);
+}
+
+/* FOOTER */
+footer{
+  padding:20px;
+  text-align:center;
+  background:rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Sonam Priya</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Hello, I'm <span>Sonam Priya</span></h1>
+  <p>Programmer | Web Developer | Diploma Student</p>
+  <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="box">
+    <p>
+      I am a Diploma student passionate about programming and web development.
+      I enjoy building clean and modern websites and continuously improving my skills.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>C</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>VS Code</span>
+    <span>MySQL</span>
+  </div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Calculator App</h3>
+    <p>Simple calculator built using HTML, CSS and JavaScript.</p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="box">10th Passed</div>
+  <!-- <div class="box">12th Passed</div> -->
+  <div class="box">Currently Pursuing Diploma</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="box">
+    <p>📞 9279844066</p>
+    <p>📧 sonampriyaaz@gmail.com</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sonam Priya | Portfolio</p>
+</footer>
+
+</body>
+</html>
